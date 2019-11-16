@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "asapm",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "AsaPm Stories and business cases",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Fabrizio Giordano <giordano.fabrizio@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/fabriziogiodano/asa.pm"
   },
   "dependencies": {
     "gatsby": "^2.17.11",
@@ -40,15 +40,15 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://asa.pm",
   "keywords": [
-    "gatsby"
+    "gatsby, product, manager, fabrizio, giordano"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/fabriziogiordano/asa.pm.git"
   },
   "scripts": {
     "build": "gatsby build",

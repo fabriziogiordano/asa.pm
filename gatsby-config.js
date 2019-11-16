@@ -1,25 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `As a PM at`,
+    author: `Fabrizio Giordano`,
+    description: `User Stories and Opportunity Assessments.`,
+    siteUrl: `https://asa.pm/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `fabrygio`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/stories`,
+        name: `stories`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/assets`,
         name: `assets`,
       },
     },
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `As a PM at`,
+        short_name: `AsaPM`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
